@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac server/*.java
+cp server/ICalc.class client/ICalc.class
+javac client/*.java
